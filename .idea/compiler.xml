@@ -7,7 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="threads" />
+        <module name="memory" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="great-tips" target="1.5" />
+      <module name="memory" target="9" />
+      <module name="threads" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

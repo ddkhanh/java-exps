@@ -2,6 +2,11 @@ package org.exps.pool;
 
 import java.util.concurrent.*;
 
+/**
+ * Per document from Java core.
+ * The ThreadPoolExecutor will not create a threads until the capacity of queue is full.
+ * The number of configuration between core/pool and queueSize must be consider carefully to utilize the hardware resource
+ */
 public class ThreadPoolRunner {
     private static volatile int count=1;
     private ThreadPoolExecutor executor;
@@ -54,9 +59,4 @@ public class ThreadPoolRunner {
         }
     }
 
-    public static void main(String[] args) {
-        ThreadPoolRunner runner = new ThreadPoolRunner("ThreadPoolRunner", 10, 15, 300);
-        runner.fillTask(200);
-        runner.dumpInfo();
-    }
 }
