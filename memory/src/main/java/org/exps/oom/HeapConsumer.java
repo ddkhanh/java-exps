@@ -13,20 +13,24 @@ public class HeapConsumer {
 
     public static void main(String[] args) {
         if (args.length > 0) {
-            try{
+            try {
                 new HeapConsumer().consumeHeap();
             } catch (Throwable e) {
                 e.printStackTrace();
                 Dumpy.dumpMemmoInfo();
             }
         } else {
-            String file = HeapConsumer.class.getClassLoader().getResource(".").getFile();
-            file = file.substring(1, file.length());
-            System.out.printf("Spawn a new process to simulate OOM Error - loading this file %s\n", file);
-            ProcessBuilder builder = new ProcessBuilder();
-            builder.command("java", "-Xms1m", "-Xmx2m", "-XX:+UseParallelGC", "-XX:-HeapDumpOnOutOfMemoryError", "-XX:HeapDumpPath=" + file + "oome.dump", "-classpath", file, HeapConsumer.class.getCanonicalName(), "gco");
             try {
-                builder.inheritIO().start().waitFor();
+                String file = Dumpy.getWorkingDir();
+                System.out.printf("Spawn a new process to simulate OOM Error - loading this file %s\n", file);
+                String[] vars = new String[]{"java",
+                        "-Xms10m",
+                        "-Xmx20m",
+                        "-XX:-HeapDumpOnOutOfMemoryError",
+                        "-XX:HeapDumpPath=" + file + "oome.dump",
+                        "-classpath", file, HeapConsumer.class.getCanonicalName(),
+                        "gco"};
+                Dumpy.spawnProcess(vars);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (IOException e) {

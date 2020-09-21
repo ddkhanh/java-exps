@@ -11,5 +11,7 @@
     <modules>
         <module>threads</module>
         <module>memory</module>
+        <module>cpu</module>
+        <module>tips</module>
     </modules>
 </project>

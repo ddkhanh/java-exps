@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -23,22 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b750599-99ab-41ed-8130-692d3ece4c74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/great-tips.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/memory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/threads.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpu/cpu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/src/main/java/org/exps/stackoverflow/StackConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/tips.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-exps.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/thread.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/threads/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/src/main/java/org/exps/pool/ThreadPoolRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/src/main/java/org/exps/pool/ThreadPoolRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/src/main/java/org/exps/oom/GCHeapConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/memory/src/main/java/org/exps/oom/GCHeapConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/src/main/java/org/exps/oom/HeapConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/memory/src/main/java/org/exps/oom/HeapConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/src/main/java/org/exps/oom/MemPerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/memory/src/main/java/org/exps/oom/MemPerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/src/main/java/org/exps/utilities/Dumpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/memory/src/main/java/org/exps/utilities/Dumpy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/src/main/java/org/exps/starvation/Starvation.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/src/main/java/org/exps/starvation/Starvation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +50,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InstancesTracker">
+    <option name="classes">
+      <map>
+        <entry key="org.exps.tips.UsePrimitiveType" value="CREATION" />
+      </map>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -70,24 +81,40 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tips/libs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.exps.utilities" />
       <recent name="org.exps.oom" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\java-exps\tips\libs" />
       <recent name="E:\Projects\java-exps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapConsumer">
-    <configuration name="GCHeapConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exps.oom.GCHeapConsumer" />
-      <module name="memory" />
+  <component name="RunManager" selected="Application.CheckLogLevel">
+    <configuration name="CPUKiller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exps.cpu.CPUKiller" />
+      <module name="cpu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.exps.oom.*" />
+          <option name="PATTERN" value="org.exps.cpu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckLogLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exps.tips.CheckLogLevel" />
+      <module name="tips" />
+      <option name="VM_PARAMETERS" value="-XX:+UseParallelGC -Xmx90m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.exps.tips.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exps.livelock.LiveLock" />
-      <module name="threads" />
+    <configuration name="JavaPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exps.tips.JavaPractice" />
+      <module name="tips" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.exps.livelock.*" />
+          <option name="PATTERN" value="org.exps.tips.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,30 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemPerThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="14" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.exps.oom.MemPerThread" />
-      <module name="memory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.exps.oom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Starvation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exps.starvation.Starvation" />
-      <module name="threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.exps.starvation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="UsePrimitiveType" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.exps.tips.UsePrimitiveType" />
+      <module name="tips" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;$ContentRoot$\libs\SizeOf_0_2_2\SizeOf.jar&quot;" />
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="330401883530800" />
+      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LiveLock" />
-      <item itemvalue="Application.MemPerThread" />
-      <item itemvalue="Application.Starvation" />
       <item itemvalue="Application.HeapConsumer" />
-      <item itemvalue="Application.GCHeapConsumer" />
+      <item itemvalue="Application.CPUKiller" />
+      <item itemvalue="Application.JavaPractice" />
+      <item itemvalue="Application.UsePrimitiveType" />
+      <item itemvalue="Application.CheckLogLevel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckLogLevel" />
+        <item itemvalue="Application.UsePrimitiveType" />
+        <item itemvalue="Application.JavaPractice" />
+        <item itemvalue="Application.CPUKiller" />
         <item itemvalue="Application.HeapConsumer" />
-        <item itemvalue="Application.GCHeapConsumer" />
-        <item itemvalue="Application.MemPerThread" />
-        <item itemvalue="Application.Starvation" />
-        <item itemvalue="Application.LiveLock" />
       </list>
     </recent_temporary>
   </component>
@@ -234,71 +244,123 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="95" width="1016" height="909" key="#Intentions" timestamp="1600051591162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="95" width="1016" height="909" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1600051591162" />
-    <state x="410" y="166" width="1099" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600057813927">
+    <state x="576" y="219" key="#VisualVM_Launcher" timestamp="1600425595434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="410" y="166" width="1099" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600057813927" />
-    <state x="686" y="154" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600057033625">
+    <state x="576" y="219" key="#VisualVM_Launcher/0.0.1920.1040@0.0.1920.1040" timestamp="1600425595434" />
+    <state x="221" y="85" width="1099" height="795" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600425798232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="154" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600057033625" />
+    <state x="221" y="85" width="1099" height="795" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600425798232" />
+    <state x="686" y="154" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600420905541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="154" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600420905541" />
+    <state x="718" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1600427473530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600427473530" />
+    <state x="742" y="463" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1600153175193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="463" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600153175193" />
     <state x="715" y="340" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600057285159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="340" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600057285159" />
-    <state width="1865" height="310" key="GridCell.Tab.0.bottom" timestamp="1600080659423">
+    <state x="393" y="216" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1600419834851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600080659423" />
-    <state width="1865" height="310" key="GridCell.Tab.0.center" timestamp="1600080659423">
+    <state x="393" y="216" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1920.1040@0.0.1920.1040" timestamp="1600419834851" />
+    <state x="855" y="214" width="728" height="612" key="#xdebugger.XInspectDialog" timestamp="1600419832666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600080659423" />
-    <state width="1865" height="310" key="GridCell.Tab.0.left" timestamp="1600080659423">
+    <state x="855" y="214" width="728" height="612" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600419832666" />
+    <state x="655" y="151" key="#xdebugger.evaluate" timestamp="1600419830733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600080659423" />
-    <state width="1865" height="310" key="GridCell.Tab.0.right" timestamp="1600080659423">
+    <state x="655" y="151" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600419830733" />
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1600425587355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600080659423" />
-    <state width="1865" height="289" key="GridCell.Tab.1.bottom" timestamp="1600076527465">
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600425587355" />
+    <state width="1865" height="278" key="GridCell.Tab.0.bottom" timestamp="1600430413013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600076527465" />
-    <state width="1865" height="289" key="GridCell.Tab.1.center" timestamp="1600076527464">
+    <state width="1865" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600430413013" />
+    <state width="1865" height="278" key="GridCell.Tab.0.center" timestamp="1600430413013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="289" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600076527464" />
-    <state width="1865" height="289" key="GridCell.Tab.1.left" timestamp="1600076527464">
+    <state width="1865" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600430413013" />
+    <state width="1865" height="278" key="GridCell.Tab.0.left" timestamp="1600430413013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="289" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600076527464" />
-    <state width="1865" height="289" key="GridCell.Tab.1.right" timestamp="1600076527464">
+    <state width="1865" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600430413013" />
+    <state width="1865" height="278" key="GridCell.Tab.0.right" timestamp="1600430413013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="289" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600076527464" />
-    <state x="351" y="78" key="SettingsEditor" timestamp="1600052714036">
+    <state width="1865" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600430413013" />
+    <state width="1865" height="267" key="GridCell.Tab.1.bottom" timestamp="1600426246350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="351" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600052714036" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1600079880911">
+    <state width="1865" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600426246350" />
+    <state width="1865" height="267" key="GridCell.Tab.1.center" timestamp="1600426246350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600079880911" />
+    <state width="1865" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600426246350" />
+    <state width="1865" height="267" key="GridCell.Tab.1.left" timestamp="1600426246350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600426246350" />
+    <state width="1865" height="267" key="GridCell.Tab.1.right" timestamp="1600426246350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600426246350" />
+    <state x="374" y="91" key="Maven.ArtifactSearchDialog" timestamp="1600420164043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="374" y="91" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600420164043" />
+    <state x="537" y="346" key="Performance.Activity.Monitor" timestamp="1600423993731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="537" y="346" key="Performance.Activity.Monitor/0.0.1920.1040@0.0.1920.1040" timestamp="1600423993731" />
+    <state x="351" y="78" key="SettingsEditor" timestamp="1600425239120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="351" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600425239120" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1600416811266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600416811266" />
     <state x="826" y="221" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1600057286336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="221" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1600057286336" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600052664675">
+    <state x="532" y="237" key="run.anything.popup" timestamp="1600411612348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600052664675" />
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600411612348" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600390942099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600390942099" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tips/src/main/java/org/exps/tips/UsePrimitiveType.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

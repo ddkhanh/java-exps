@@ -1,5 +1,6 @@
 package org.exps.utilities;
 
+import java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
@@ -27,5 +28,15 @@ public class Dumpy {
         System.out.printf("Get current size of heap in bytes: %s\n", heapSize);
         System.out.printf("Get maximum size of heap in bytes: %s\n", heapMaxSize);
         System.out.printf("Get amount of free memory within the heap in bytes: %s\n", heapFreeSize);
+    }
+
+    public static String getWorkingDir() {
+        String file = Dumpy.class.getClassLoader().getResource(".").getFile();
+        file = file.substring(1, file.length());
+        return file;
+    }
+
+    public static void spawnProcess(String ...args) throws IOException, InterruptedException {
+        new ProcessBuilder().command(args).inheritIO().start().waitFor();
     }
 }

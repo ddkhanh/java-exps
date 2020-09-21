@@ -23,10 +23,10 @@ public class GCHeapConsumer {
             String file = GCHeapConsumer.class.getClassLoader().getResource(".").getFile();
             file = file.substring(1, file.length());
             System.out.printf("Spawn a new process to simulate OOM Error - loading this file %s\n", file);
-            ProcessBuilder builder = new ProcessBuilder();
-            builder.command("java", "-Xms1m", "-Xmx2m", "-XX:+UseParallelGC", "-XX:-HeapDumpOnOutOfMemoryError", "-XX:HeapDumpPath=" + file + "oome.dump", "-classpath", file, GCHeapConsumer.class.getCanonicalName(), "gco");
+
+            String[] vars = new String[]{"java", "-Xms1m", "-Xmx2m", "-XX:+UseParallelGC", "-XX:-HeapDumpOnOutOfMemoryError", "-XX:HeapDumpPath=" + file + "oome.dump", "-classpath", file, GCHeapConsumer.class.getCanonicalName(), "gco"};
             try {
-                builder.inheritIO().start().waitFor();
+                Dumpy.spawnProcess(vars);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (IOException e) {

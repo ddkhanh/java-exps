@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cpu/cpu.iml" filepath="$PROJECT_DIR$/cpu/cpu.iml" />
       <module fileurl="file://$PROJECT_DIR$/great-tips.iml" filepath="$PROJECT_DIR$/great-tips.iml" />
       <module fileurl="file://$PROJECT_DIR$/memory/memory.iml" filepath="$PROJECT_DIR$/memory/memory.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tips/tips.iml" filepath="$PROJECT_DIR$/tips/tips.iml" />
     </modules>
   </component>
 </project>
